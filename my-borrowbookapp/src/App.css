@@ -1,0 +1,43 @@
+
+
+button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+button.loading {
+  background-color: #6c757d;
+}
+
+@media (max-width: 600px) {
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .App {
+    margin: 10px;
+  }
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1200px; /* Adjust as needed */
+  padding: 20px;
+}
+
+.register, .login {
+  max-width: 400px;
+  margin: auto;
+}
+
+.register form, .login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register label, .login label {
+  margin-bottom: 10px;
+}
